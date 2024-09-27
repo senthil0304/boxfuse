@@ -1,5 +1,10 @@
-FROM ubuntu
-RUN apt-get update -y
-RUN apt-get install apache2 -y
-COPY hello-1.0.war /var/www/html/
-CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
+
+FROM tomcat:latest
+
+RUN rm -rf /usr/local/tomcat/webapps/*
+
+COPY hello-1.0.war /usr/local/tomcat/webapps/
+
+EXPOSE 8080
+
+CMD ("catalina.sh" "run")
