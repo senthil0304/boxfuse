@@ -34,7 +34,7 @@ metadata:
 spec:
   selector:
     app: myapp
-  type: NodePort
+  type: LoadBalanacer
   ports:
   - port: 80
     targetPort: 8080
