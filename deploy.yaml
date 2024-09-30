@@ -10,7 +10,7 @@ metadata:
   name: mydeploy
   namespace: project
 spec:
-  replicas: 10
+  replicas: 3
   selector:
     matchLabels:
       app: myapp
