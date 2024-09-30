@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: jenkinscontainer
-        image: senthilkumar03/jenkinrepo:40
+        image: senthilkumar03/jenkinrepo:75
         ports:
         - containerPort: 8080
 
