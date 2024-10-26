@@ -1,4 +1,4 @@
-
+Here's a breakdown of my pipeline: 🌟🎉
 
     pipeline {
     agent any 
