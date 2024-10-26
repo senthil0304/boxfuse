@@ -1,7 +1,5 @@
 🚀 Excited to share that I've successfully completed an DevOps CI/CD pipeline project! 🎉
 
-GitHub📂: https://lnkd.in/gAJcNvyb
-
 Exciting News! I've successfully implemented a comprehensive CI/CD pipeline using cutting-edge DevOps tools and practices. 
 
 🛠️ Tools & Technologies Used :
